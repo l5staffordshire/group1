@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 2, 2016, 3:04:54 AM
+    Author     : Nana Yaw Zaza
+*/
+
+
+input[type="text"],[type="date"],[type="email"],[type="number"],[type="tel"],[type="color"]{
+	height: 25px;
+	width: 360px;
+        background-color: white;
+        opacity: 1;
+	margin:0 0 10px ;
+	font-size: 18px;
+	background-color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+
+table, th, tr, td{
+    border:1px groove #008800;
+    font-size: 15px;
+}
+.aaa{
+    width: 500px;
+    margin-right: auto;
+	margin-left: auto;
+}
+.out{
+    background-color: #fff;
+    opacity: 0.9;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+padding-bottom: 30px;
+padding-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+        height: auto;
+    
+    
+}
+.fom{
+    background-color: #fff;
+    opacity: 0.9;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+padding-bottom: 30px;
+padding-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.but{
+    background-color: #fff;
+    border-radius: 10px;
+    animation: ease-out;
+    animation-direction: alternate;
+    animation-duration: 2;
+    animation-fill-mode: both;
+    animation-delay: 1;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+    appearance: button;
+}
+
+body{
+    background-image: url('img/1.jpg');
+    
+}
+input[type="search"]{
+	height: 25px;
+	width: 360px;
+	margin:0 0 10px ;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #fff;
+}
+nav ul{
+    list-style-type: none;
+width: 455px;
+padding: 10px 50px;
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.6;
+border-style: none;
+}
+
+/* Float the list items side by side */
+ul li {display: inline-block;
+list-style: none;}
+
+/* Style the links inside the list items */
+ul li a {
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul li a:focus, .active {
+    background-color: #ccc;
+}
+
+
+h1, h2, h3, h4, h5, h6{padding:0;
+margin:0;} 
+input[type="submit"]{
+	margin-top:10px;
+}
+
+
+.ta{
+	margin-bottom:10px;
+	
+}
+span{
+	
+	margin-left:10px;
+}
+
+.btn{
+	width:200px;
+	height:50px;
+	color:#fff;
+	border-radius:10px;
+	border:1px groove red ;
+	background-color:#9EDADD;
+	opacity:1;
+	cursor:pointer;
+	font-size:20px;
+	
+}
+
+.c1 {
+	background-color: #fff;
+padding-top: 5px;
+opacity: 0.95;
+padding-left: 10%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+padding-bottom: 10px;
+clear: both;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-variant: small-caps;
+font-size: 25px;
+margin-right: auto;
+margin-left: auto;
+width: 800px;
+border-style: none;
+}
+
+legend{
+	text-align:center;
+	margin:10px 0 10px 0;
+	padding:5px;
+	
+	
+}
+.a1{padding-left: 50px;}
+.b{padding-left: 52.99px;}
+.c{padding-left: 100px;}
+.d{padding-left: 57px;}
+.e{padding-left: 106px;}
+.f{padding-left: 35px;}
+.g{padding-left: 100px;}
+.h{padding-left: 20px;}
+.i{padding-left: 80px;}
+.j{padding-left: 100px;}
+.k{padding-left: 100px;}
+.l{padding-left: 24px;}
+
