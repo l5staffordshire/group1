@@ -1,0 +1,73 @@
+@charset "utf-8";
+body{
+	background-image:url(in.jpg);
+	background-attachment:scroll;
+	background-size:150px;
+
+}
+form{
+	width:800px;
+	background-color:transparent;
+	border-radius:5px;
+	border:2px groove #FC3;
+	margin-left:auto;
+	margin-right:auto;
+	font-variant:small-caps;
+	font-size:24px;
+}
+.imagepriv {
+	background-color: #069;
+	text-align: center;
+	display: block;
+	overflow: visible;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	left: 911px;
+	top: 28px;
+	height: 137px;
+	width: 153px;
+}
+.up{
+	display: block;
+	overflow: visible;
+	position: absolute;
+	visibility: visible;
+	z-index: auto;
+	left: 866px;
+	top: 165px;
+}
+
+
+div + div {
+  margin-top: 0.5em;
+}
+
+label {
+  display: inline-block;
+  width: 220px;
+  text-align:justify;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: #000;
+}
+
+
+.btn{
+	width:200px;
+	height:40px;
+	color:#fff;
+	border-radius:10px;
+	border:1px groove #9CF;
+	background-color:#9EDADD;
+	opacity:1;
+	cursor:pointer;
+	font-size:20px;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
