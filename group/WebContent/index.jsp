@@ -58,7 +58,7 @@
 <input name="pos" type="text" size="50" />
 </div>
 </fieldset>
-<fieldset><legend>Contact</legend>
+<fieldset><legend>Employee</legend>
 <div><label>Date Of Employment :</label>
 <input name="doe" type="date" size="50" />
 </div>
