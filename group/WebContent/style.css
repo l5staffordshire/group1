@@ -71,3 +71,14 @@ table{
 	margin-left:auto;
 	margin-right:auto;
 }
+
+strong{
+	color:green;
+}
+.topdiv{
+	background-color: gray;
+height: 30px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+padding-top: 20px;
+}

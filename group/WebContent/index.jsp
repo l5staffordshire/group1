@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"    %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -12,9 +12,9 @@
 <title>Group 1</title>
 </head>
 <body>
-<form action="#" method="post" enctype="multipart/form-data">
+<form action="show.jsp" method="post" >
 
-<fieldset><legend>Personnal</legend>
+<fieldset><legend>Personnal </legend>
 <img src="" alt="upload image" name="image upload" class="imagepriv" id="imagepriv" ><br/>
   <input type="file" name="imageupload" onChange="readURL(this);" accept="image/gif, image/jpeg, image/png" class="up" />
 <div><label>First Name :</label>
@@ -83,7 +83,7 @@
 </form>
 
 <hr/>
-<table width="1254" border="1">
+<table width="1260" border="1">
   <tr>
     <th width="30" scope="col">ID</th>
     <th width="117" scope="col">First Name</th>
